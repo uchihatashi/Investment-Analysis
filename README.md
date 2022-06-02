@@ -1,4 +1,4 @@
-# Investment-Analysis
+# Investment Analysis
 
 ### Project Brief
 You work for Spark Funds, an [asset management company](http://www.wallstreetmojo.com/what-is-asset-management-company-amc/). Spark Funds wants to make investments in a few companies. The CEO of Spark Funds wants to understand the global trends in investments so that she can take the investment decisions effectively.
