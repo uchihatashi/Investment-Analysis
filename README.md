@@ -27,3 +27,49 @@ The business objectives and goals of data analysis are pretty straightforward.
     	  2. **Country analysis:** Identifying the countries which have been the most heavily invested in the past. These will be Spark Funds’ favourites as well.
     	  3. **Sector analysis:** Understanding the distribution of investments across the eight main sectors. (Note that we are interested in the eight **'main sectors'** provided in the mapping file. The two files — **companies and rounds2** — have numerous sub-sector names; hence, you will need to map each sub-sector to its main sector.)
 
+
+### Structure:
+
+	-- data
+	 	-- companies.csv
+	 	-- mapping.csv
+	 	-- rounds2.csv
+	 -- INVEST.pdf
+	 -- Investment Analysis.ipynb
+	 -- Investments.xlsx
+	 
+
+### Detail about datafile(csv)
+1. **Company details** <br>
+**companies:** A table with basic data of companies.
+
+| Attribute      | Description                                    |
+| -------------- | ---------------------------------------------- |
+| Permalink      | Unique ID of company                           |
+| name           | Company name                                   |
+| homepage\_url  | Website URL                                    |
+| category\_list | Category/categories to which a company belongs |
+| status         | Operational status                             |
+| country\_code  | Country Code                                   |
+| state\_code    | State                                          |
+
+2. **Funding round details:**  <br>
+**rounds2:** The most important parameters are explained below:
+
+| Attributes                 | Description                                           |
+| -------------------------- | ----------------------------------------------------- |
+|  company\_permalink        | Unique ID of company                                  |
+|  funding\_round\_permalink | Unique ID of funding round                            |
+|  funding\_round\_type      | Type of funding – venture, angel, private equity etc. |
+|  funding\_round\_code      | Round of venture funding (round A, B etc.)            |
+|  funded\_at                | Date of funding                                       |
+|  raised\_amount\_usd       | Money raised in funding (USD)                         |
+
+
+3. **Sector Classification:**<br>
+**mapping.csv:** This file maps the numerous category names in the companies table (such 3D printing, aerospace, agriculture, etc.) to eight broad sector names. The purpose is to simplify the analysis into eight sector buckets, rather than trying to analyse hundreds of them.
+4. **Excel File (Investments.xlsx):**<br>
+This file has all the checkpoints, Understanding of the Data Set, and Analysis.
+5. **Presentation template (INVEST.pdf):** <br>
+This has the finding and explanation of what I have analyzed and the results.
+
