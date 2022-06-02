@@ -73,3 +73,9 @@ This file has all the checkpoints, Understanding of the Data Set, and Analysis.
 5. **Presentation template (INVEST.pdf):** <br>
 This has the finding and explanation of what I have analyzed and the results.
 
+### Conclusions:
+1. **Spark Funds** should invest in **venture type companies** because average venture type companies had raised the funding around **5 million USD**. And our constraints for the investment is **5 to 15 million USD.**
+2. We should invest in the **USA venture type companies** because the USA carries **75%** of the total raised amount in venture type companies. And **80% in the top ten countries.**
+3. Most companies invested in **Others(8243) and Cleantech/Semiconductors(7849)** sectors in the USA.
+4. However, if we check the amount raised in USD in both the sectors, we can see **Cleantech/Semiconductors has increased 59%** more than the Others sector.
+5. In the Cleantech/Semiconductors sector, we can see **"Freescale Semiconductor"** company has the highest USD amount raised, which is around **13% of the total investment** in the Cleantech/Semiconductors sector, and **77% in top10 Cleantech/Semiconductors** sector in the USA.
